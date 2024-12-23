@@ -1,0 +1,51 @@
+ALGORITHM Nbr_caracter
+
+VAR
+cpt, i: Entier;
+tph: string;
+
+BEGIN
+cpt <=0;
+ for (i=0,i<tph.lenght-1, i++)
+{
+    cpt++;
+}
+
+END
+
+
+ALGORITHM Phrase_espace
+
+VAR
+cpt, i: Entier;
+mot: string ;
+espace: char=' ';
+
+BEGIN
+cpt <=0;
+ for (i=0,i<tph.lenght-1, i++)
+{ if( mot !=espace)
+      
+    cpt++;
+}
+
+END
+
+
+
+ALGORITHM nbr_voyelles
+
+VAR
+cpt, i: Entier;
+tph: string ;
+BEGIN
+cpt <=0;
+ for (i=0,i<tph.lenght-1, i++)
+{ if(tph[i] = 'a' OR tph[i] ='e' OR tph[i] ='i' OR tph[i] ='o' OR tph[i] ='u' OR tph[i] ='y' )
+      
+    cpt++;
+}
+
+END
+
+
